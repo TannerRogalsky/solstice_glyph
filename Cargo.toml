@@ -3,6 +3,8 @@ name = "solstice_glyph"
 version = "0.1.0"
 authors = ["Tanner Rogalsky <tanner@tannerrogalsky.com>"]
 edition = "2018"
+license = "MIT"
+description = "A fast text renderer for solstice, powered by glyph_brush"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
