@@ -1,0 +1,17 @@
+[package]
+name = "solstice_glyph"
+version = "0.1.0"
+authors = ["Tanner Rogalsky <tanner@tannerrogalsky.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+solstice = { version = "0.1", features = ["derive"] }
+glyph_brush = "0.7"
+log = "0.4"
+bytemuck = "1.4"
+
+[dev-dependencies]
+glutin = "0.25"
+env_logger = "0.8"
