@@ -194,13 +194,13 @@ impl Vertex2D {
                     color: extra.color,
                 },
                 Vertex2D {
-                    position: [gl_rect.min.x as f32, gl_rect.max.y as f32],
-                    uv: [tex_coords.min.x, tex_coords.max.y],
+                    position: [gl_rect.max.x as f32, gl_rect.max.y as f32],
+                    uv: [tex_coords.max.x, tex_coords.max.y],
                     color: extra.color,
                 },
                 Vertex2D {
-                    position: [gl_rect.max.x as f32, gl_rect.max.y as f32],
-                    uv: [tex_coords.max.x, tex_coords.max.y],
+                    position: [gl_rect.min.x as f32, gl_rect.max.y as f32],
+                    uv: [tex_coords.min.x, tex_coords.max.y],
                     color: extra.color,
                 },
             ],
