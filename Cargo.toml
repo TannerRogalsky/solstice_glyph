@@ -1,6 +1,6 @@
 [package]
 name = "solstice_glyph"
-version = "0.1.1"
+version = "0.1.2"
 authors = ["Tanner Rogalsky <tanner@tannerrogalsky.com>"]
 edition = "2018"
 license = "MIT"
